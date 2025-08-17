@@ -16,4 +16,4 @@ EXPOSE 8080
 # Deal with the entry point so that the right config is loaded
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-CMD ["sh", "-c", "/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]

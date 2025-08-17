@@ -27,7 +27,7 @@ Custom port
 ```bash
 docker run \
   -v ./www:/usr/share/nginx/html \
-  -e NGINX_PORT=300 \
+  -e NGINX_PORT=3000 \
   -p 3000:3000 \
   martinhillford/nginx-extended:latest
 ```   
