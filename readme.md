@@ -38,3 +38,6 @@ docker run \
 
 
 
+## Remarks
+
+1) Since `sendfile on;` can cause issue in combination with brotli, it is disabled as it is not needed anyway.
